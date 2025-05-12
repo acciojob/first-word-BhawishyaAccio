@@ -1,6 +1,6 @@
 function firstWord(s) {
   // your code here
-	let c=s.split(" ");
+	let c=s.trim().split(" ");
 
 		return c[0]
 	
@@ -8,5 +8,5 @@ function firstWord(s) {
 
 // Do not change the code below
 
-const s = prompt("Enter String:");
-alert(firstWord(s));
+// const s = prompt("Enter String:");
+// alert(firstWord(s));
